@@ -2,7 +2,7 @@
   "author": "CarlosRdrz",
   "compatibleCoreVersion": "0.7.8",
   "description": "Generates HP for Actors based on a number of hit dice",
-  "download": "https://github.com/carlosrdrz/actor-hitdice/releases/download/v0.1.0/v0.1.0.zip",
+  "download": "https://github.com/carlosrdrz/actor-hitdice/archive/0.1.0.zip",
   "esmodules": [ "scripts/index.js" ],
   "languages": [],
   "manifest": "https://raw.githubusercontent.com/carlosrdrz/actor-hitdice/master/module.json",
