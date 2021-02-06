@@ -14,7 +14,7 @@ export default class ActorHitdice {
             if (!game.user.isGM)
                 return;
 
-            Hooks.on('preCreateToken', (scene, data, options, userId) => {
+            Hooks.on('preCreateToken', (scene, data) => {
                 this._setTokenData(scene, data);
             })
         });
@@ -96,6 +96,5 @@ export default class ActorHitdice {
                 this.attr_hp = data;
             }
         });
-    });
-}
+    }
 }
